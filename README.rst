@@ -3,17 +3,13 @@ A GUI to create input and output files template for DiscFromExe
 Documentation
 -------------
 
-How to get the docs?
-
-Bugs/Questions
---------------
-
-How to report bugs?
+See www.gemseo.org
 
 License
 -------
 
-What is the license?
+`GEMSEO <http://gemseo.org/>`_
+    GNU LGPL v3.0
 
 Contributors
 ------------
