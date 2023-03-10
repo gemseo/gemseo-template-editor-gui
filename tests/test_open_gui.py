@@ -18,10 +18,15 @@
 #    OTHER AUTHORS   - MACROSCOPIC CHANGES
 from __future__ import annotations
 
+from os import environ
 from subprocess import call
 from subprocess import TimeoutExpired
 
 import pytest
+
+pytestmark = pytest.mark.skipif(
+    environ.get("CI") == "true", reason="the tests cannot run on CI yet"
+)
 
 
 def test_cmd():

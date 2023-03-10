@@ -1,2 +1,0 @@
-"""Template edition."""
-from __future__ import annotations

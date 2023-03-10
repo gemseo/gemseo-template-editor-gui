@@ -1,9 +1,9 @@
-A GUI to create input and output files template for DiscFromExe
+A GUI to create input and output files template for DiscFromExe.
 
 Documentation
 -------------
 
-See www.gemseo.org
+See www.gemseo.org.
 
 License
 -------

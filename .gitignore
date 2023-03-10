@@ -2,7 +2,7 @@
 /dist
 /.tox
 *.pyc
-/src/gemseo_template_editor.egg-info
+/src/gemseo_template_editor_gui.egg-info
 
 /.project
 /.pydevproject

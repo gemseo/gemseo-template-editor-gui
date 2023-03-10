@@ -1,11 +1,14 @@
-The developers thank all the open source libraries making GEMSEO-template-editor possible.
+The developers thank all the open source libraries making GEMSEO-template-editor-gui possible.
 
 External Dependencies
 ---------------------
 
-GEMSEO-template-editor depends on software with compatible licenses that are listed below.
+GEMSEO-template-editor-gui depends on software with compatible licenses that are listed below.
 
 `GEMSEO <http://gemseo.org/>`_
+    GNU LGPL v3.0
+
+`PySide6 <https://wiki.qt.io/Qt_for_Python>`_
     GNU LGPL v3.0
 
 `Python <http://python.org/>`_
@@ -14,12 +17,12 @@ GEMSEO-template-editor depends on software with compatible licenses that are lis
 Internal Dependencies
 ---------------------
 
-GEMSEO-template-editor source code includes software with compatible licenses that are listed below.
+GEMSEO-template-editor-gui source code includes software with compatible licenses that are listed below.
 
 External application
 --------------------
 
-Some external applications are used by GEMSEO-template-editor,
+Some external applications are used by GEMSEO-template-editor-gui,
 but not linked with the application,
 for documentation generation,
 training or example purposes.
@@ -60,4 +63,4 @@ training or example purposes.
 Resources
 ---------
 
-Some icons and fonts are used by GEMSEO-template-editor or its documentation.
+Some icons and fonts are used by GEMSEO-template-editor-gui or its documentation.
