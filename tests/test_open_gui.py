@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Copyright 2023 IRT Saint Exupéry, https://www.irt-saintexupery.com
 #
 # This program is free software; you can redistribute it and/or
@@ -17,14 +16,20 @@
 #    INITIAL AUTHORS - API and implementation and/or documentation
 #        :author: Francois Gallard
 #    OTHER AUTHORS   - MACROSCOPIC CHANGES
+from __future__ import annotations
 
-from subprocess import call, TimeoutExpired
+from subprocess import call
+from subprocess import TimeoutExpired
+
 import pytest
+
 
 def test_cmd():
     """Tests that the entry point works."""
-    with pytest.raises(TimeoutExpired,
-        match="Command 'gemseo-template-grammar-editor' timed out after 1.0 seconds"):
+    with pytest.raises(
+        TimeoutExpired,
+        match="Command 'gemseo-template-grammar-editor' timed out after 1.0 seconds",
+    ):
         # This ensures that the GUI is openned, stays opens 1 second, and then
         # closed by the timeout, otherwise it would raise a FileNotFoundError.
-        call("gemseo-template-grammar-editor", timeout=1.)
+        call("gemseo-template-grammar-editor", timeout=1.0)
