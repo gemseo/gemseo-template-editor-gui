@@ -19,7 +19,8 @@
 #    OTHER AUTHORS   - MACROSCOPIC CHANGES
 """GUI for edition of templates for inputs and outputs files.
 
-To be used by :class:`.DiscFromExe` Run this file with no argument to open the GUI
+To be used by
+:class: `.DiscFromExe` Run this file with no argument to open the GUI
 """
 from __future__ import annotations
 
