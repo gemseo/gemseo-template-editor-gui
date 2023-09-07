@@ -1,0 +1,13 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: d2f0baf
+_src_path: /home/ad/gemseo-copier
+author_email: contact@gemseo.org
+author_name: GEMSEO team
+gemseo_min_version: '5'
+package_is_a_gemseo_plugin: false
+project_is_open_source: true
+project_name: gemseo-template-editor-gui
+project_name_suffix: template-editor-gui
+project_slug: gemseo_template_editor_gui
+short_description: A GUI to create input and output files template for DiscFromExe.
+use_gemseo_develop: false
