@@ -7,38 +7,32 @@ http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative
 Commons, PO Box 1866, Mountain View, CA 94042, USA.
 -->
 
+# gemseo-template-editor-gui
+
+[![PyPI - License](https://img.shields.io/pypi/l/gemseo-template-editor-gui)](https://www.gnu.org/licenses/lgpl-3.0.en.html)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/gemseo-template-editor-gui)](https://pypi.org/project/gemseo-template-editor-gui/)
+[![PyPI](https://img.shields.io/pypi/v/gemseo-template-editor-gui)](https://pypi.org/project/gemseo-template-editor-gui/)
+[![Codecov branch](https://img.shields.io/codecov/c/gitlab/gemseo:dev/gemseo-template-editor-gui/develop)](https://app.codecov.io/gl/gemseo:dev/gemseo-template-editor-gui)
+
+## Overview
+
 A GUI to create input and output files template for DiscFromExe.
 
-# Documentation
+## Installation
 
-How to get the docs?
+Install the latest version with `pip install gemseo-template-editor-gui`.
 
-# Bugs/Questions
+See [pip](https://pip.pypa.io/en/stable/getting-started/) for more information.
 
-Please use the gitlab issue tracker at
-<https://gitlab.com/gemseo/dev/gemseo-template-editor-gui/-/issues>
+## Bugs and questions
+
+Please use the [gitlab issue tracker](https://gitlab.com/gemseo/dev/gemseo-template-editor-gui/-/issues)
 to submit bugs or questions.
 
-# License
+## Contributing
 
-The **gemseo-template-editor-gui** source code is distributed under the
-GNU LGPL v3.0 license.
-A copy of it can be found in the LICENSE.txt file.
-The GNU LGPL v3.0 license is an exception to the GNU GPL v3.0 license.
-A copy of the GNU GPL v3.0 license can be found in the LICENSES folder.
+See the [contributing section of GEMSEO](https://gemseo.readthedocs.io/en/stable/software/developing.html#dev).
 
-The **gemseo-template-editor-gui** examples are distributed under the
-BSD 0-Clause, a permissive
-license that allows to copy paste the code of examples without preserving the
-copyright mentions.
-
-The **gemseo-template-editor-gui** documentation is distributed under the
-CC BY-SA 4.0 license.
-
-The **gemseo-template-editor-gui** product depends on other software which have
-various licenses.
-The list of dependencies with their licenses is given in the CREDITS.md file.
-
-# Contributors
+## Contributors
 
 - GEMSEO team

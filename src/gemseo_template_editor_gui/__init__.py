@@ -22,6 +22,7 @@
 To be used by
 :class: `.DiscFromExe` Run this file with no argument to open the GUI
 """
+
 from __future__ import annotations
 
 import sys
