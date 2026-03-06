@@ -4,44 +4,54 @@ authors = [
     {name = "GEMSEO team", email = "contact@gemseo.org"}
 ]
 description = "A GUI to create input and output files template for DiscFromExe."
-license = {text = "GNU Lesser General Public License v3"}
+readme = "README.md"
+license = "LGPL-3.0"
+license-files = ["LICENSE.txt"]
 classifiers = [
-    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
     "Intended Audience :: Science/Research",
     "Topic :: Scientific/Engineering",
     "Operating System :: POSIX :: Linux",
     "Operating System :: MacOS",
     "Operating System :: Microsoft :: Windows",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
 ]
 dynamic = ["version"]
-requires-python = ">=3.8, <3.11"
+requires-python = ">=3.10, <3.14"
 dependencies = [
-    "pyside6 >=6.3.0,<=6.4.2",
+    "gemseo[all] >=5,<6",
 ]
 
-[project.optional-dependencies]
-test = [
-    "covdefaults",
-    "pytest",
-    "pytest-cov",
-    "pytest-xdist",
-]
+[dependency-groups]
 dev = [
-    "gemseo[all]@git+https://gitlab.com/gemseo/dev/gemseo.git@develop",
+    "covdefaults >=2",
+    "pytest >=7,<9",
+    "pytest-cov >=5",
+    "pytest-xdist >=3",
+]
+doc = [
+    "black",
+    "griffe-fieldz",
+    "griffe-inherited-docstrings",
+    "markdown-exec[ansi]",
+    "mike",
+    "mkdocs-bibtex",
+    "mkdocs-gallery",
+    "mkdocs-gen-files",
+    "mkdocs-include-markdown-plugin",
+    "mkdocs-literate-nav",
+    "mkdocs-material",
+    "mkdocs-section-index",
+    "mkdocstrings[python]",
 ]
 
 [project.urls]
-Homepage = "https://gitlab.com/gemseo"
+Homepage = "https://gemseo.org"
 Source = "https://gitlab.com/gemseo/dev/gemseo-template-editor-gui"
-Tracker = "https://gitlab.com/gemseo/dev/gemseo-template-editor-gui/-/issues"
-
-[project.readme]
-file = "README.md"
-content-type = "text/markdown"
+Issues = "https://gitlab.com/gemseo/dev/gemseo-template-editor-gui/-/issues"
 
 [build-system]
 requires = [
@@ -51,12 +61,3 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools_scm]
-
-[tool.setuptools]
-license-files = [
-    "LICENSE.txt",
-    "CREDITS.md",
-]
-
-[tool.black]
-target-version = ['py38']
